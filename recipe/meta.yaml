@@ -1,5 +1,5 @@
 {% set name = "digdem" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/digdem-{{ version }}.tar.gz
-  sha256: 827dd15f385d7051572d3cf3673af58991237778b7b63bd2e3d867890da82b6f
+  sha256: d34f700d3590212a8aa67ee5e01803e42092c400ed1e933415adafa75f1ce32d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
