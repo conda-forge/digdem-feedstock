@@ -145,9 +145,3 @@ Feedstock Maintainers
 
 * [@marcperuz](https://github.com/marcperuz/)
 
-
-<!-- dummy commit to enable rerendering -->
-
-
-<!-- dummy commit to enable rerendering -->
-
